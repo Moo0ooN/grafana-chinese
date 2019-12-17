@@ -19,8 +19,8 @@ initDevProject() {
   console br
   console info 'Init-tool'
   console br
-  console action 'Clone source from https://github.com/WangHL0927/grafana.git'
-  git clone https://github.com/WangHL0927/grafana.git
+  console action 'Clone source from https://github.com/Moo0ooN/grafana.git'
+  git clone https://github.com/Moo0ooN/grafana.git
   cd ./grafana
   console action 'Run yarn install...'
   yarn install
